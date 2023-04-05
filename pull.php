@@ -8,3 +8,11 @@ $persona = ["nombre" => "Pedro",
             echo "$valor <br>";
           }
 ?>
+$persona = ["Marca" => "Pedro",
+            "Modelo" => "Sánchez",
+           "Año" => 50
+           ];
+          
+        foreach ($auto as $posicion=>$valor) {
+            echo "$posicion: $valor <br>";
+          }
